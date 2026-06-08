@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About | SkillVerse Academy</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0b1220, #111827, #0f172a);
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.navbar-brand {
+    color: #38bdf8 !important;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 70px 20px 30px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #7dd3fc;
+}
+
+.hero p {
+    color: #cbd5e1;
+}
+
+/* Glass Card */
+.glass {
+    background: rgba(255,255,255,0.07);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 18px;
+}
+
+/* Section Title */
+.section-title {
+    color: #38bdf8;
+    font-weight: bold;
+}
+
+/* Stats */
+.stat-card {
+    background: rgba(255,255,255,0.08);
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.stat-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(56,189,248,0.2);
+}
+
+/* Faculty */
+.faculty-card {
+    background: rgba(255,255,255,0.08);
+    border-radius: 18px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.faculty-card:hover {
+    transform: translateY(-10px);
+}
+
+.faculty-img {
+    height: 260px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    background: rgba(0,0,0,0.7);
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 5px;
+    color: #cbd5e1;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+<div class="container">
+
+    <a class="navbar-brand" href="index.html">
+        Skill<span style="color:#7dd3fc;">Verse</span>
+    </a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+
+        <ul class="navbar-nav ms-auto">
+
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+            <li class="nav-item"><a class="nav-link active" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+
+        </ul>
+
+    </div>
+
+</div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+
+<h1>About SkillVerse Academy</h1>
+<p>We empower students with real-world tech skills and industry-ready training</p>
+
+</section>
+
+<!-- About Content -->
+<section class="container mb-5">
+
+<div class="glass p-4">
+
+    <h3 class="section-title">Our Story</h3>
+
+    <p class="text-light">
+        SkillVerse Academy was created with a mission to bridge the gap between education and industry needs.
+        We focus on practical learning, hands-on projects, and career-oriented training in modern technologies
+        like Web Development, AI, Data Science, Cloud Computing, and Software Engineering.
+    </p>
+
+</div>
+
+</section>
+
+<!-- Stats -->
+<section class="container mb-5">
+
+<div class="row g-4 text-center">
+
+    <div class="col-md-3">
+        <div class="stat-card p-4">
+            <h2>5000+</h2>
+            <p>Students Trained</p>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="stat-card p-4">
+            <h2>120+</h2>
+            <p>Courses</p>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="stat-card p-4">
+            <h2>95%</h2>
+            <p>Placement Rate</p>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="stat-card p-4">
+            <h2>50+</h2>
+            <p>Expert Trainers</p>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<!-- Vision & Mission -->
+<section class="container mb-5">
+
+<div class="row g-4">
+
+    <div class="col-md-6">
+        <div class="glass p-4 h-100">
+            <h3 class="section-title">Vision</h3>
+            <p>
+                To become a leading global tech training platform that transforms students into skilled professionals.
+            </p>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="glass p-4 h-100">
+            <h3 class="section-title">Mission</h3>
+            <p>
+                To provide high-quality, affordable, and practical education that helps students achieve career success.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<!-- Faculty -->
+<section class="container mb-5">
+
+<h2 class="text-center section-title mb-4">Our Faculty</h2>
+
+<div class="row g-4">
+
+    <div class="col-lg-4">
+        <div class="faculty-card">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" class="w-100 faculty-img">
+            <div class="p-3">
+                <h4>Dr. Snehal</h4>
+                <p>Data Science Expert</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4">
+        <div class="faculty-card">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" class="w-100 faculty-img">
+            <div class="p-3">
+                <h4>Ms. Sukhriya</h4>
+                <p>AI & ML Specialist</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4">
+        <div class="faculty-card">
+            <img src="https://randomuser.me/api/portraits/men/65.jpg" class="w-100 faculty-img">
+            <div class="p-3">
+                <h4>Mr. Malhotra</h4>
+                <p>Cloud Architect</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<!-- Footer -->
+<footer class="py-4 text-center">
+
+<p><b>SkillVerse Academy</b></p>
+<p>Hyderabad | +91 9876543210 | info@skillverse.com</p>
+<p>© 2026 All Rights Reserved</p>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
